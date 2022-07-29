@@ -33,10 +33,10 @@ const ExerciseDetail = () => {
       setEquipmentExercises(equimentExercisesData);
     };
 
-    fetchExercisesData();
+    fetchExercisesData()
   }, [id]);
 
-  if (!exerciseDetail) return <div>No Data</div>;
+  if (!exerciseDetail) return <div>No Data</div>
 
   return (
     <Box >
